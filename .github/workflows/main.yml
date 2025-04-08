@@ -1,0 +1,92 @@
+#include<stdio.h>
+#include<conio.h>
+
+
+int main()
+{
+
+  {
+
+  int a;
+  int b;
+  int c;
+  int d;
+  printf("enter the first letter,a");
+  scanf("%d",first letter);
+  printf("enter the second letter,b");
+  scanf("%d",second letter);
+{
+
+   {
+
+
+    printf("enter the third letter,c");
+    scanf("%d",third letter);
+
+
+    printf("enter the last letter,d");
+    scanf("%d",fourth letter);
+    }
+}
+if(a>b)
+
+{
+
+printf("probability of a becoming greater will be more than other letter");
+}
+
+else
+}
+printf("probability of a becoming greater will be less than other letter or value")
+
+jobs:
+  test:
+    name: Test on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node_version: ['18.x', '20.x']
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js ${{ matrix.node_version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node_version }}
+
+    - name: npm install, build and test
+      run: |
+        npm install
+        npm run build --if-present
+        npm test
+For (a&b>c&d)
+  if(a&b==c&d)
+
+}
+
+}
+
+}
+
+on:
+  push:
+    branches:
+    - main
+    - release/*
+
+    {
+
+    on:
+  pull_request:
+    branches:
+    - main
+    {
+    {
+    
+on:
+  schedule:
+  - cron: "0 2 * * 1-5"
+
+
+  
